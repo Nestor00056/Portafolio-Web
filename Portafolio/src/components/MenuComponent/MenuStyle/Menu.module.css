@@ -1,0 +1,50 @@
+.Menu {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ulmenu {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  text-align: center;
+}
+.Ulmenu > a {
+  font-size: 150%;
+  display: flex;
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.Ulmenu > ul > a::before {
+  content: "";
+  transition: content 0.3 s ease;
+}
+
+.Ulmenu > a:hover::before {
+  content: "->";
+  text-shadow: 0px 0px 5px white;
+  opacity: 1;
+}
+
+.Ulmenu > a:hover {
+  text-shadow: 0px 0px 3cap white;
+}
+
+.Ulmenu > a.active {
+  text-shadow: 0px 0px 3cap white;
+}
+
+.active::before {
+  content: "->";
+}
+.active {
+  text-shadow: 0px 0px 2cap white;
+}

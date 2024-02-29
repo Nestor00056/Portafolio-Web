@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../public/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter-bold";
+  src: url("../public/Inter-Bold.ttf");
+}
+* {
+  margin: 0px;
+  font-family: "Inter";
+}

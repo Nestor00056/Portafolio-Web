@@ -1,0 +1,8 @@
+.mainContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  color: #c0c0c0;
+}

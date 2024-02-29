@@ -1,0 +1,45 @@
+.divContent {
+  width: 90%;
+  height: 95%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8%;
+}
+.ImageSection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+}
+.ImageContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 3%;
+}
+
+.techSection {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  padding-bottom: 25px;
+  box-sizing: border-box;
+}
+.ItContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.ItContent > div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
