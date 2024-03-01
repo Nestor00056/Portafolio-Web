@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Inter-bold";
-  src: url("../public/Inter-Bold.ttf");
+  src: url("/Inter-Bold.ttf");
 }
 body {
   height: 100vh;

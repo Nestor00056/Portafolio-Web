@@ -1,0 +1,11 @@
+.Tags {
+  width: auto;
+  height: 22px;
+  background-color: #c0c0c0;
+  color: #222f3f;
+  font-weight: bold;
+  border: 1px solid #c0c0c0;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}

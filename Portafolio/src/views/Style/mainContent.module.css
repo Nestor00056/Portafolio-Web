@@ -37,7 +37,6 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 15px;
-  background-color: beige;
 }
 
 .test > p {
@@ -50,15 +49,13 @@ h1 {
   padding: 10px;
   font-size: 100%;
   color: #c0c0c0;
-  box-shadow: 0px 0px 5px white;
   cursor: pointer;
   border: 1px solid;
   transition: background-color 0.3s, color 0.3s, text-shadow 0.3s;
-  background-color: aqua;
 }
 .test > p:hover {
   background-color: #c0c0c0;
   color: #222f3f;
-  text-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 10px white;
   border: 1px solid #c0c0c0;
 }

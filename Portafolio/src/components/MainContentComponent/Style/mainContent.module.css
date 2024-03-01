@@ -1,8 +1,11 @@
 .mainContent {
   width: 80%;
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow-y: auto;
   color: #c0c0c0;
+  flex-direction: row;
 }
