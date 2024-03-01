@@ -43,3 +43,12 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+.ProfileImageContent {
+  width: 20%;
+  height: 50%;
+}
+.ProfileImage {
+  height: 100%;
+  border-radius: 20px;
+}

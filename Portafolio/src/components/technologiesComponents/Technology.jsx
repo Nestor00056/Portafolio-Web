@@ -1,6 +1,6 @@
 function Technology({ tech, Icon }) {
   return (
-    <div className="">
+    <div>
       {Icon}
       <h3>{tech}</h3>
     </div>

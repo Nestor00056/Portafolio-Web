@@ -2,11 +2,23 @@ import { SiExpress } from "react-icons/si";
 import GenericRender from "../GenericRenderComponent/GenericRender";
 import Technology from "../technologiesComponents/Technology";
 import style from "./style/Generic.module.css";
-
-function GenericComponent({ title, imgArray, Description, TechnologiesArray, children }) {
+function GenericComponent({
+  title,
+  imgArray,
+  Description,
+  TechnologiesArray,
+  profileImage,
+}) {
   return (
     <div className={style.divContent}>
       <h1>{title}</h1>
+      {profileImage ? (
+        <div className={style.ProfileImageContent}>
+          <img src={profileImage} alt="" className={style.ProfileImage} />
+        </div>
+      ) : (
+        ""
+      )}
       <p>{Description}</p>
       {imgArray?.length > 1 ? (
         <div className={style.ImageSection}>

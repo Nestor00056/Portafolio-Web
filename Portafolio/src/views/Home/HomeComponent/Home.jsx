@@ -7,28 +7,7 @@ import style from "../../Style/mainContent.module.css";
 import { useNavigate } from "react-router";
 
 function Home() {
-  const Navigate = useNavigate();
-  function scroll() {
-    try {
-      Navigate("/aboutme");
-    } catch (error) {
-      console.log(error);
-    }
-  }
-  useEffect(() => {
-    window.addEventListener("scroll", scroll);
-
-    return () => {
-      window.removeEventListener("scroll", scroll);
-    };
-  }, []);
-  const Description = `¡Hola a todos y todas!
-
-  Mi nombre es Néstor Camilo y soy un apasionado desarrollador Full Stack, con un enfoque especializado en el backend. ¡Bienvenidos a mi portafolio!
-  
-  Aquí podrás descargar mi currículum, conocer más sobre mí, explorar mi experiencia profesional, descubrir los proyectos en los que he trabajado y conectarte conmigo a través de mis redes sociales.
-  
-  ¡Espero que disfrutes explorando mi trabajo!`;
+  const navigate = useNavigate();
   return (
     <>
       <div className={style.test}>
@@ -40,6 +19,13 @@ function Home() {
           <FaNodeJs size={57}></FaNodeJs>
           <SiPostgresql size={57}></SiPostgresql>
         </div>
+        <p
+          onClick={() => {
+            navigate("/aboutme");
+          }}
+        >
+          Comenzar a Explorar
+        </p>
       </div>
     </>
   );
