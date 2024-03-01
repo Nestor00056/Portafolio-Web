@@ -31,14 +31,15 @@
 .ItContent {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   height: auto;
+  gap: 20px;
 }
 
 .ItContent > div {
+  width: 80px;
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
